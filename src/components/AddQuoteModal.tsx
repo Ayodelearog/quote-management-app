@@ -104,7 +104,8 @@ const AddQuoteModal: React.FC<SideBarProps> = ({
 						</button>
 					</Link>
 
-					<button className="w-full h-[44px] bg-white text-[14px] font-normal leading-5 text-center text-[#E11435] rounded active:text-black">
+					<button className="w-full h-[44px] bg-white text-[14px] font-normal leading-5 text-center text-[#E11435] rounded active:text-black"
+					onClick={() => setIsCreateQuoteModalOpen(false)}>
 						Cancel
 					</button>
 				</footer>
